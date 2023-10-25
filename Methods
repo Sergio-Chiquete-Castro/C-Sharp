@@ -6,7 +6,7 @@ bool validRange = false;
 
 foreach (string ip in ipv4Input)
 {
-    address = ip.Split(".", StringSplitOptions.RemoveEmptyEntries);
+    address = ip.Split(".", StringSplitOptions.RemoveEmptyEntries); 
     Console.WriteLine(address);
 
     ValidateLength();
