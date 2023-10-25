@@ -1,0 +1,31 @@
+int first = 2;
+string second = "4";
+string result = first + second;
+Console.WriteLine(result);
+
+
+Console.WriteLine("\n");
+
+
+decimal myDecimal = 3.14m;
+Console.WriteLine($"decimal: {myDecimal}");
+
+int myInt = (int)myDecimal;//convert to int
+Console.WriteLine($"int: {myInt}");
+
+Console.WriteLine("\n");
+
+
+int f1 = 5;
+int s2 = 7;
+string message = f1.ToString() + s2.ToString();
+Console.WriteLine(message);
+
+Console.WriteLine("\n");
+
+
+string third = "3";
+string seventh = "7";
+//parse convert string type to given data type
+int sum = int.Parse(third) + int.Parse(seventh);
+Console.WriteLine(sum);
